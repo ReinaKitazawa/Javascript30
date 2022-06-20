@@ -1,0 +1,21 @@
+body{
+  background-color: #9d8189;
+}
+.inbox{
+  box-shadow: -1px 3px 7px -1px rgba(0, 0, 0, 0.49);
+  background-color: #ffcad4;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.item{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.item p{
+  padding-left: 5px;
+}
+input:checked + p {
+  text-decoration: line-through;
+}
